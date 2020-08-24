@@ -1,4 +1,4 @@
-package br.com.caelum.casadocodigoapi;
+package br.com.caelum.casadocodigo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
