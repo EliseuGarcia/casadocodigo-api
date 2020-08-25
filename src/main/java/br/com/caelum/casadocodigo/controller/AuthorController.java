@@ -21,8 +21,6 @@ import br.com.caelum.casadocodigo.controller.dto.output.AuthorOutputDto;
 import br.com.caelum.casadocodigo.model.Author;
 import br.com.caelum.casadocodigo.repository.AuthorRepository;
 
-
-
 @RestController
 @RequestMapping("/api/admin/authors")
 public class AuthorController {
@@ -66,20 +64,5 @@ public class AuthorController {
 
 		return ResponseEntity.ok(new AuthorOutputDto(author));
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 }

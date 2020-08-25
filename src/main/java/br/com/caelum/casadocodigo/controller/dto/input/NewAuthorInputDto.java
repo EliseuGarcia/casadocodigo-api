@@ -15,7 +15,7 @@ public class NewAuthorInputDto {
 	private String email;
 
 	private String avatarUrl;
-	
+
 	@NotBlank
 	private String description;
 
@@ -50,8 +50,6 @@ public class NewAuthorInputDto {
 	public void setAvatarUrl(String avatarUrl) {
 		this.avatarUrl = avatarUrl;
 	}
-	
-	
 
 	public String getDescription() {
 		return description;
